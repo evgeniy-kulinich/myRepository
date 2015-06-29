@@ -1,0 +1,318 @@
+.navbar {
+	background: #d9edf7 ; 
+	border-color: #bce8f1;
+}
+.navbar-header p , .footer .icon{
+	color: #39D1B4;
+	font-family: 'beer_money';
+}
+.navbar-header p {
+	margin-top: -13px;
+	font-size: 17px;
+}
+
+.footer .icon {
+	padding: 5px 0 0 0px;
+	font-size: 15px;
+	text-align: center;	
+}
+.footer .slogan {
+	color: #39D1B4;
+	font-family: 'beer_money';
+	font-size: 60px;
+	text-align: center;	
+}
+.navbar li a:hover {
+	color:#bce8f1;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+	background: #bce8f1;
+	border-radius: 10px;
+	color: white;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover {
+	color: #39D1B4;
+}
+.nav .navbar-nav{
+	text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #337ab7;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	border-color: #bce8f1;
+}
+
+.dropdown-menu > li > a {
+	color: #337ab7;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: white;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #39D1B4;
+}
+.navbar-default .navbar-toggle {
+	border-color: #bce8f1;
+}
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background: white;
+}
+.navbar-toggle {
+	color: #39D1B4;
+}
+.carousel .carousel-inner .item img {
+	width: 100%;
+	height: auto;
+}
+.carousel-caption h3 {
+	font-family: 'beer_money';
+	font-size: 40px;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+.panel .panel-heading i::before {
+	margin-right: 5px;
+}
+
+
+/*.container-fluid .row .col {
+	outline: 1px solid #bce8f1;
+}*/
+
+.img-rounded {
+	text-align: center;
+}
+.panel .panel-heading a {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'beer_money';
+}
+.btn-sm, .btn-group-sm > .btn {
+	float: right;
+}
+.footer .social  {
+	text-decoration: none;
+	color: #337ab7;
+	padding: 5px 0 0 0;
+	text-align: center;
+}
+.footer  a:hover {
+	color: #39D1B4;
+}
+
+.footer .email {
+	color: #337ab7;
+	font-size: 12px;
+	font-family: 'beer_money';
+	margin-top: 10px;
+	text-align: center;
+}
+
+.footer .text-muted {
+	color: #31708f;
+	text-align: center;
+	font-size: 10px;
+}
+
+
+
+
+
+
+.main {
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1;
+}
+
+.main h1 {
+	color: #337ab7 ;
+	font-size: 50px;
+	margin: 10px 0 10px 0;
+	padding: 20px 0;
+	line-height: 60px;
+	width: 100%;
+	text-align: center;
+	font-family: 'beer_money';
+}
+
+.main h2 {
+	background-color: #fff ;
+	color: #337ab7 ;
+	font-size: 20px;
+	margin: 0 0 50px 0;
+	padding: 20px 0;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: #bce8f1;
+}
+
+.thumbnail {
+	border: 1px solid;
+	position: relative;
+	padding: 50px;
+	border-radius: 10px;
+	margin-bottom:50px;
+	border-color: #bce8f1;
+}
+
+.thumbnail img {
+   margin-top: 10px;
+   margin-bottom: 30px;
+   max-width: 100%;
+   width: 100px;
+   height: 100px;
+   	display: inline-block;
+}
+
+.title,
+.date {
+   color: #31708f;
+   margin: 0;
+   font-size: 18px;
+   /*font-weight: 800;*/
+}
+
+.date {
+   color: #a3a3a3 ;
+   font-size: 14px;
+   font-weight: 200;
+}
+
+.price {
+    background-color: #8be5f8 ;
+   color: #fff;
+   font-size: 18px;
+   border-radius: 50%;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+   font-weight: 200;
+   height: 80px;
+   line-height: 80px;
+   text-align: center;
+   width: 80px;
+   position: absolute;
+   top: -40px;
+   right: 20px;
+}
+
+.rating {
+	text-align: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 30px 0 -30px 20px;
+}
+
+.likes,
+.dislikes {
+	background: #39D1B4 ;
+	color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   	margin: 0 -30px 0 40px;
+    text-align: center;
+    font-weight: 200;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background 500ms;
+}
+
+.likes:hover,
+.dislikes:hover {
+   color: #31708f;
+   background: #c3f1e8;
+   transition: background 500ms;
+}
+
+
+
+@media (max-width: 768px) {
+	.navbar-header p   {
+		margin-left: 20px;
+		font-size: 15px;
+		color: #39D1B4;
+		margin-top: 0px;
+	}
+	.panel-heading a {
+		font-size: 8px;
+	}
+	.panel-body p {
+		font-size: 8px;
+	}
+	.main h1 {
+		font-size: 25px;
+		padding: 0px 0;
+	}
+	.main h2 {
+		font-size: 15px;
+	}
+	.title {
+		font-size: 15px;
+	}
+	.date {
+		font-size: 10px;
+	}
+	.price {
+
+	}
+	.rating {
+		  margin: -40px 0 -30px 20px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #337ab7;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #bce8f1;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+		color: #39D1B4;
+	}
+	.navbar-toggle {
+		margin-right: 20px;
+	}
+	.carousel-caption p {
+		font-size: 8px;
+	}
+	.carousel-caption h3 {
+		font-size: 12px;
+	}
+	.carousel-indicators {
+		bottom: -5px;
+	}
+	.carousel-caption {
+		  bottom: 0px;
+	}
+	.navbar-collapse .nav li a {
+		font-size: 12px;
+	}
+	.panel-heading {
+		padding: 5px 15px;
+	}
+	.panel .panel-heading a {
+		text-decoration: none;
+		font-size: 12px;
+	}
+	.footer .fa-3x {
+  		font-size: 1em;
+	}
+	.footer .slogan {
+		font-size: 30px;
+	}
+}
